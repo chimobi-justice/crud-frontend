@@ -1,0 +1,37 @@
+#post {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#post #postWrapper {
+  background-color: #fff;
+  padding: 10px;
+  margin: 2rem 0rem 2rem 0rem;
+  border-radius: 9px;
+}
+
+#post #postWrapper h2 {
+  font-size: 22px;
+  color: #302f2f;
+  padding: 10px 0px 10px 0px;
+}
+
+#post #postWrapper p {
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  line-height: 1.5em;
+}
+
+#post #postWrapper a {
+  text-decoration: none;
+  background-color: blue;
+  color: #fff !important;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#post #postWrapper a:hover {
+  background-color: #4545f3;
+}

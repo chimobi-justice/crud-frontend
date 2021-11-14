@@ -1,0 +1,43 @@
+#updateHolder {
+  width: 40%;
+  margin: 0px auto;
+}
+
+#updateHolder form {
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#updateHolder form input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+#updateHolder form button {
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff !important;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#updateHolder form button:hover {
+  background-color: #4545f3;
+}
+
+.err {
+  color: red;
+  padding-left: 10px;
+}

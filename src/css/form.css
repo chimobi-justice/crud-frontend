@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+}
+.back {
+  padding: 10px;
+  margin-top: 10px;
+}
+.back > a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff !important;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.back > a:hover {
+  background-color: #4545f3;
+}
+
+.formHolder {
+  width: 40%;
+  margin: 5rem auto;
+}
+.formHolder .headText {
+  text-align: center;
+  padding: 10px;
+}
+
+.formHolder .headText a {
+  text-decoration: none;
+  color: #000;
+}
+
+.formHolder form {
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.formHolder form input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.formHolder form button {
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff !important;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.formHolder form button:hover {
+  background-color: #4545f3;
+}
+
+.formHolder form p#humanNotice {
+  text-align: center;
+}
+
+.err {
+  color: red;
+  padding-left: 10px;
+}

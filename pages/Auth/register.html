@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../src/css/form.css" />
+    <title>resgister</title>
+  </head>
+  <body>
+    <div class="back">
+      <a href="../../index.html">Back</a>
+    </div>
+    <div class="formHolder">
+      <h1 class="headText"><a href="../../index.html">Register</a></h1>
+      <form method="post" id="form">
+        <input type="text" name="name" id="name" placeholder="Enter Fullname" />
+        <p id="ErrFullname" class="err"></p>
+        <input type="email" name="email" id="email" placeholder="Enter Email" />
+        <p id="ErrEmail" class="err"></p>
+        <input type="password" name="password" id="password" placeholder="Enter Password" />
+        <p id="ErrPassword" class="err"></p>
+        <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Confirm Password" />
+        <button id="btnRegister" type="submit">Register</button>
+        <p id="humanNotice">Already have an account? <a href="./login.html">Login up</a></p>
+      </form>
+    </div>
+
+    <script src="../../src/js/Auth/register.js"></script>
+  </body>
+</html>

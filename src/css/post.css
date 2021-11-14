@@ -1,0 +1,54 @@
+#getSinglePost {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#getSinglePost #postWrapper {
+  background-color: #fff;
+  padding: 10px;
+  margin: 2rem 0rem 2rem 0rem;
+  border-radius: 9px;
+}
+
+#getSinglePost #postWrapper h2 {
+  font-size: 22px;
+  color: #302f2f;
+  padding: 10px 0px 10px 0px;
+}
+
+#getSinglePost #postWrapper p {
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  line-height: 1.5em;
+}
+
+#getSinglePost #postWrapper button {
+  text-decoration: none;
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff !important;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#getSinglePost #postWrapper button:hover {
+  background-color: #4545f3;
+}
+
+#getSinglePost #postWrapper button#deleteBtn {
+  text-decoration: none;
+  background-color: red;
+  border: 1px solid red;
+  color: #fff !important;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#getSinglePost #postWrapper button#deleteBtn:hover {
+  background-color: #f33838;
+}
