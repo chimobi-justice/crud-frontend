@@ -81,3 +81,21 @@ textarea {
   color: red;
   padding-left: 10px;
 }
+
+#invalidCreds {
+  text-align: center;
+  padding: 10px;
+  width: 91%;
+  margin: 0px auto;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#success {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  width: auto;
+  color: #000;
+  border-radius: 3px;
+}

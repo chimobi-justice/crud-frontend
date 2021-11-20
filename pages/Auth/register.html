@@ -11,16 +11,16 @@
     <div class="back">
       <a href="../../index.html">Back</a>
     </div>
+    <div id="success"></div>
     <div class="formHolder">
-      <h1 class="headText"><a href="../../index.html">Register</a></h1>
+      <h1 class="headText"><a href="register.html">Register</a></h1>
       <form method="post" id="form">
-        <input type="text" name="name" id="name" placeholder="Enter Fullname" />
-        <p id="ErrFullname" class="err"></p>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+        <p id="NameErr" class="err"></p>
         <input type="email" name="email" id="email" placeholder="Enter Email" />
-        <p id="ErrEmail" class="err"></p>
+        <p id="EmailErr" class="err"></p>
         <input type="password" name="password" id="password" placeholder="Enter Password" />
-        <p id="ErrPassword" class="err"></p>
-        <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Confirm Password" />
+        <p id="PasswordErr" class="err"></p>
         <button id="btnRegister" type="submit">Register</button>
         <p id="humanNotice">Already have an account? <a href="./login.html">Login up</a></p>
       </form>

@@ -45,3 +45,25 @@ body {
   text-decoration: underline;
   color: #585757;
 }
+
+.Auth {
+  display: none;
+}
+
+.Guest {
+  display: none;
+}
+
+.err {
+  color: red;
+  padding-left: 10px;
+}
+.success {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: auto;
+  color: #000;
+  border-radius: 3px;
+}
